@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fondo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="50dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:background="@drawable/button_back"
+                android:text="Santuario de San José"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="italic|bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="41dp"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtActividades"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/button_back"
+                android:clickable="true"
+                android:text="Actividades"
+                android:textColor="@color/white"
+                android:layout_marginTop="41dp"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="78dp"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtFotos"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/button_back"
+                android:clickable="true"
+                android:text="Fotos"
+                android:textColor="@color/white"
+                android:layout_marginTop="78dp"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="115dp"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtWeb"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/button_back"
+                android:clickable="true"
+                android:text="Web"
+                android:textColor="@color/white"
+                android:layout_marginTop="115dp"
+                android:textSize="20sp" />
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="152dp"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtUbicacion"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/button_back"
+                android:clickable="true"
+                android:text="Ubicación"
+                android:textColor="@color/white"
+                android:layout_marginTop="152dp"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="189dp"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtVideos"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/button_back"
+                android:clickable="true"
+                android:text="Videos"
+                android:textColor="@color/white"
+                android:layout_marginTop="189dp"
+                android:textSize="20sp" />
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="226dp"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtAudios"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/button_back"
+                android:clickable="true"
+                android:text="Audios"
+                android:textColor="@color/white"
+                android:layout_marginTop="226dp"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="263dp"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtContactenos"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@drawable/button_back"
+                android:clickable="true"
+                android:text="Contactenos"
+                android:textColor="@color/white"
+                android:layout_marginTop="263dp" 
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="300dp"
+                android:background="@color/on_press_back" />
+
+            <TextView
+                android:id="@+id/txtView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_back"
+                android:text="Santuario de San José Ver 1.0 2014"
+                android:textColor="@color/white"
+                android:layout_marginTop="300dp"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/txtView1"
+                android:background="@color/on_press_back" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
